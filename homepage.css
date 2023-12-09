@@ -1,0 +1,452 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kdam+Thmor+Pro&family=Poppins:wght@300;500&display=swap');
+
+:root{
+    --grey:#d1ccc0;
+    --purple:#706fd3;
+    --cream:#ffda79;
+    --mahroom:#b33939;
+    --orange:#ffa801;
+    --royalblue:#3c40c6;
+    --lightgreen:#0be881;
+    --slate:#485460;
+    --lightgrey:#d2dae2;
+    --spray:#82ccdd;
+    --pink:#b71540;
+    --black:#2d3436;
+    --white:#ffffff;
+}
+body{
+  background-color: var(--black);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.nav{
+    width: 100%;
+    height: 780px;
+    background-image: url("./img1.jpg");
+    display: inline-block;
+    position: relative;
+}
+
+.btns{
+    float: right;
+    padding: 0.7em;
+    margin-right: 2em;
+    background: transparent;
+}
+
+.head{
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.navimg{
+    background: transparent;
+    margin-left: 6em;
+    position: absolute;
+}
+
+.img1{
+    background: transparent;
+    opacity: 1;
+    margin-left: 2em;
+}
+
+.bt1{
+    width:10em;
+    height: 3em;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.bt2{
+    width:10em;
+    height: 3em;
+    background-color: var(--mahroom);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.btn1{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px 30px 5px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+.dd-button:hover {
+    background-color: white;
+  }
+  
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: black;
+    list-style-type: none;
+    color: white;
+  }
+  
+  .dd-input + .dd-menu {
+    display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu {
+    display: block;
+  } 
+  
+  .dd-menu li {
+    padding: 5px 32px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+    color: #2d3436;
+  }
+  
+  .dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .navimg{
+    margin-left: 11em;
+    font-size: 1.3em;
+  
+  }
+  .para1{
+    color: white;
+    font-size: 3em;
+    background: transparent;
+    margin-top: 1em;
+  }
+  .para2{
+    background: transparent;
+    color: white;
+    font-size: 1.5em;
+  }
+  .para3{
+    background: transparent;
+    color: white;
+
+  }
+
+  .para4{
+    background: transparent;
+    font-size: 2em;
+  }
+  #input{
+    width: 65%;
+    height: 63px;
+    font-size: 0.5em;
+    color: white;
+    border: none;
+    background: transparent;
+    border: .5px solid white;
+    text-align: center;
+  }
+  #mailbtn{
+    width: 200px;
+    height: 65px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 0.6em;
+    background-color: red;
+  }
+
+  /* movie slider */
+  .moviecontainer{
+    /* border: 1px solid red; */
+    width: 99.7%;
+    height: 550px;
+    margin-top: 1em;
+    /* background-color: var(--black); */
+  }
+
+  .moviehead{
+    margin: 2em;
+    display: inline-block;
+    position: relative;
+   
+  }
+
+  .movieheading{
+    color: var(--white);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    /* margin-right: 31em; */
+  }
+
+  .heading{
+    color: var(--white);
+    font-size: 2.8em;
+  }
+  .sliders{
+    /* border: 1px solid white; */
+    width: 95%;
+    height: 350px;
+    align-items: center;
+    position: relative;
+  }
+  .slide1{
+    width: 19%;
+    height: 280px;
+    /* border: 3px solid yellow; */
+    display: inline-block;
+    margin: 1em;
+    border-radius: 12px;
+    background: rgb(25,27,4);
+    background: linear-gradient(0deg, rgba(25,27,4,1) 5%, rgba(209,7,130,1) 95%);
+  }
+
+  .slide1:hover{
+    box-shadow: 0px 0px 7px 3px #ebfb24;
+    transition: .5s;
+  }
+
+  h1{
+    color: white;
+    margin-top: 1em;
+    text-transform: uppercase;
+  }
+  p{
+    color: var(--spray);
+    margin-top: 1.3em;
+  }
+
+
+  /* featuers */
+
+
+  .webcontainer{
+    /* border: 1px solid red; */
+    width: 99.7%;
+    /* height: 550px; */
+    margin-top: -8em;
+    /* background-color: var(--black); */
+  }
+
+  .webhead{
+    margin: 2em;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .webheading{
+    color: white;
+  }
+
+  
+  /* features */
+  .featurecontainer{
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid white; */
+    background-color: black;
+    display: block;
+  }
+
+  .fordetails1{
+    width: 30%;
+    height: 280px;
+    /* border: 1px solid yellow; */
+    float: left;
+    margin: 2.5em;
+    margin-left: 8em;
+  }
+  .fordetails2{
+    width: 30%;
+    height: 280px;
+    /* border: 1px solid yellow; */
+    float: right;
+    margin: 2.5em;
+    margin-right: 8em;
+  }
+  .fordetails1:hover {
+    box-shadow: 2px 2px 2px 2px var(--cream),
+    2px 2px 5px 5px var(--royalblue);
+    border-radius: 15px;
+  }
+  .fordetails2:hover {
+    box-shadow: 2px 2px 2px 2px var(--cream),
+    2px 2px 5px 5px var(--royalblue);
+    border-radius: 15px;
+  }
+
+  .contimg1:hover{
+    box-shadow: 2px 2px 2px 2px var(--cream),
+    2px 2px 5px 5px var(--royalblue);
+    border-radius: 15px;
+    background: transparent;
+  }
+  .contimg2:hover{
+    box-shadow: 2px 2px 2px 2px var(--cream),
+    2px 2px 5px 5px var(--royalblue);
+    border-radius: 15px;
+  }
+
+  .forimg1{
+    width: 25%;
+    height: 250px;
+    /* border: 1px solid blue; */
+    float: right;
+    margin: 2.5em;
+    margin-right: 8em;
+  }
+  .forimg2{
+    width: 25%;
+    height: 250px;
+    /* border: 1px solid blue; */
+    float: left;
+    margin: 2.5em;
+    margin-right: 8em;
+  }
+
+  /* question section */
+  .queryque{
+    color: white;
+    font-size: 2em;
+  }
+  .queryform{
+    width: 60%;
+    height: 350px;
+    margin-top: .8em;
+    background-color: var(--black);
+    border: 1px solid white;
+    display: block;
+    background-color: black;
+    box-shadow: 1px 1px 2px 2px var(--cream);
+    border-radius: 10px;
+  }
+  form{
+    /* margin: 3em; */
+    font-size: 1.5em;
+    text-align: left;
+    padding: 2em;
+    
+  }
+  #label{
+    color: white;
+    font-size: 1.2em;
+  }
+  .input{
+   float: right;
+   width: 50%;
+   height: 30px;
+   padding: .3em;
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid white;
+   color: white;
+   font-size: .8em;
+  }
+  #submit{
+    width: 30%;
+    height: 50px;
+    margin-left: 8em;
+    background: transparent;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+
+  #submit:hover{
+    /* background-color: var(--orange); */
+    box-shadow: 3px 3px 3px 2px var(--lightgreen);
+  }
+
+  /* footer */
+.footercontainer{
+  width: 97%;
+  height: 350px;
+  background-color: black;
+  position: relative;
+  padding: 1em;
+}
+#footerpara{
+
+  margin: 2vw;
+  color: var(--lightgreen);
+}
+.child{
+  width: 20%;
+  height: auto;
+  display: inline-block;
+}
+a{
+  display: grid;
+  text-align: left;
+  font-size: 1.1em;
+  padding: .5em;
+  color: var(--lightgrey);
+  margin-left: 2em;
+}
+.reserv{
+  color: wheat;
+  margin-top: 4.3em;
+}
+#footerres{
+  color: var(--lightgreen);
+  text-decoration: none;
+}
+
+  
